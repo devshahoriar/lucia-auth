@@ -1,15 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Gole
-- [ ] Design login page
-- [ ] Design registration page
-- [ ] connect with database
-- [ ] detabase design
-- [ ] setup luchia auth
-- [ ] register user
-- [ ] login user
-- [ ] setup google auth
-- [ ] setup github auth
+- [x] Design login page
+- [x] Design registration page
+- [x] connect with database
+- [x] detabase design
+- [x] setup luchia auth
+- [x] register user
+- [x] login user
+- [x] setup google auth
+- [x] setup github auth
 
 
 ## Getting Started
