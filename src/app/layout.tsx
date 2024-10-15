@@ -17,7 +17,7 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <AuthProvider user={user}>
-        <body className={'bg-background font-sans antialiased'}>
+        <body className={'bg-background font-sans antialiased text-black'}>
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             {children}
           </ThemeProvider>

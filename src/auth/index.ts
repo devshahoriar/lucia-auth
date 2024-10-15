@@ -20,7 +20,7 @@ export const google = new Google(
 
 const lucia = new Lucia(adapter, {
   sessionCookie: {
-    name: 'admin-token',
+    name: 'token',
     expires: false,
 
     attributes: {

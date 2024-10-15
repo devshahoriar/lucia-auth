@@ -2,8 +2,8 @@
 import bcrypt from 'bcrypt'
 import db from '@/lib/db'
 import  { loginUser, logoutUser } from '@/auth'
-
 import { redirect } from 'next/navigation'
+
 const register = async (pv: any, fromstate: FormData) => {
   try {
     const res: any = Object.fromEntries(fromstate.entries())

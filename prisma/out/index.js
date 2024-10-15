@@ -127,7 +127,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\projects\\next-app\\prisma\\out",
+      "value": "C:\\projects\\lucia-auth\\prisma\\out",
       "fromEnvVar": null
     },
     "config": {
@@ -141,12 +141,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\projects\\next-app\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\projects\\lucia-auth\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": null,
-    "schemaEnvPath": "../../.env"
+    "rootEnvPath": null
   },
   "relativePath": "..",
   "clientVersion": "5.18.0",
@@ -155,6 +154,7 @@ const config = {
     "db"
   ],
   "activeProvider": "sqlite",
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
